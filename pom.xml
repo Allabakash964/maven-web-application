@@ -89,12 +89,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8081/repository/maven-releases/</url>
+	      <url>http://192.168.153.128:8081/repository/akash-project-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8081/repository/maven-snapshots/</url>
+	      <url>http://http://192.168.153.128:8081/repository/akash-project-snaphot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
