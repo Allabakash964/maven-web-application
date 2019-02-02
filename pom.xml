@@ -94,7 +94,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://http://192.168.153.128:8081/repository/akash-project-snaphot/</url>
+	      <url>http://192.168.153.128:8081/repository/akash-project-snaphot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
