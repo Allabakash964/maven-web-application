@@ -60,11 +60,10 @@ node('slaves'){
     stage('Send Notifications')
     {
         
-      mail bcc: 'devopstrainingblr@gmail.com', body: '''Build Done.
-Regards,
-Mithun Technologies.
-''', cc: 'devopstrainingblr@gmail.com', from: '', replyTo: '', subject: 'Build Done', to: 'devopstrainingblr@gmail.com'
-  
+     mail bcc: '', body: '''Regards 
+
+--Akash---''', 
+    cc: 'allabakash964@gmail.com', from: '', replyTo: '', subject: 'pipeline-project', to: 'allabakash964@gmail.com,raffieee235@gmail.com,'
     }
     
 }
