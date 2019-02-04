@@ -5,7 +5,7 @@ node('slaves'){
     
   stage('Checkout the code') 
     {
-     git branch: 'master', credentialsId: '05b3cf19-8d8a-4ad0-ab66-0ac06671d09e', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'   
+    git 'https://github.com/akash-org/maven-web-application.git' 
     }
     
    
@@ -19,7 +19,7 @@ node('slaves'){
         }
     }
     
-     /*
+     
     stage('Create Package')
     {
       if(isUnix()){
@@ -29,7 +29,7 @@ node('slaves'){
            bat  'mvn clean package' 
         }
     }
-    
+    /*
     stage('SonarQube Report')
     {
       if(isUnix()){
